@@ -83,7 +83,7 @@ ul li a:hover{
     margin-top: -300px;
     padding-bottom: 85px;
     border-radius: 10px;
-     transition: transform 0.8s;
+    transition: transform 0.8s;
     cursor: pointer;
 
 }
@@ -161,4 +161,44 @@ ul li a:hover{
 .btn:hover{
 	background: white;
 	color: orange;
+}
+
+.footer1 h2{
+	color:greenyellow ;
+	font-size:30px ;
+	font-family:cooper black ;
+	font-weight: bold;
+	text-align: center;
+
+}
+.footer1 p{
+    color: black;
+	font-size:20px ;
+	font-family:arial ;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+
+
+}
+.footer2 h2{
+	padding-top: 20px;
+    color: greenyellow;
+	font-size: 30px;
+	font-family: cooper black;
+	font-weight: bold;
+	text-align: center;
+	
+}
+.footer2 p{
+    color: black;
+	font-size:20px ;
+	font-family:arial ;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+
+
 }
