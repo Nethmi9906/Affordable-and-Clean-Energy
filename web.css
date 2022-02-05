@@ -3,7 +3,7 @@
 	padding: 0;
 }
 .container{
-    height: 200vh;
+    height: 250vh;
     width: 100%;
     background-image: url(img3.jpg);
     background-position: center;
@@ -164,7 +164,7 @@ ul li a:hover{
 }
 
 .footer1 h2{
-	color:greenyellow ;
+	color:gold ;
 	font-size:30px ;
 	font-family:cooper black ;
 	font-weight: bold;
@@ -184,7 +184,7 @@ ul li a:hover{
 }
 .footer2 h2{
 	padding-top: 20px;
-    color: greenyellow;
+    color: gold;
 	font-size: 30px;
 	font-family: cooper black;
 	font-weight: bold;
@@ -199,6 +199,27 @@ ul li a:hover{
 	text-align: center;
 	padding: 10px;
 	font-weight: bold;
+	
 
+}
+.footer3 h2{
+    padding-top: 20px;
+    color: gold;
+	font-size: 30px;
+	font-family: cooper black;
+	font-weight: bold;
+	text-align: center;
+	
+
+
+}
+.footer3 p{
+    color: black;
+	font-size:20px ;
+	font-family:arial ;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
 
 }
