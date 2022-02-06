@@ -236,8 +236,79 @@ ul li a:hover{
 	position: absolute;
 	color: white;
 	width: 100%;
-	bottom: -15px;
+	
 	padding-top: 10px;
 	font-family:'Lucida Sans';
 
 }
+.footer4 .footer4-content{
+	border: 3px solid lightblue;
+	height: 283px;
+	display: flex;
+}
+.footer4 .footer4-content .footer4-section{
+	flex: 1;
+	padding: 25px;
+	border: 1px solid lightblue;
+}
+
+.btn1{
+	width: 45px;
+	height: 30px;
+	background: lightblue;
+	border: none;
+	margin-top: 0px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: black;
+
+}
+.btn1:hover{
+	background: white;
+	color: black;
+}
+.footer4 .footer4-content .contact-form .contact-input{
+	background-color: transparent;
+	height: 100px;
+	width: 300px;
+	color: black;
+	font-family: Arial;
+
+}
+.footer4 .footer4-content .links ul a{
+         color:black;
+		 text-decoration: none;
+		 text-align: center;
+		 font-size: 20px;
+		 font-weight: bold;
+		 line-height: 50px;
+		 transition: 0.2s ease-in-out;
+		
+}
+.footer4 .footer4-content .links ul a:hover{
+	color: white;
+
+}
+.footer4 .footer4-content .about .socials a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	padding: 15px;
+	transition: 0.4s all ;
+}
+.footer4 .footer4-content .about .socials a:hover{
+	color: black;
+}
+
+.footer4 .footer4-content .about .contact{
+	font-size: 20px;
+
+}
+
+
+	
+
+
+
+
+
