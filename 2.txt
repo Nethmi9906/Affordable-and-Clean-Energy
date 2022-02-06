@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>forms.html</title>
+<style>
+form{color:aqua;} 
+#p1{color:white;font-size:30px}
+div{background-image:url('fi.jpg');}
+
+</style>
+</head>
+<body bgcolor="blue" >
+
+<marquee width="100%" direction="right" scrollamount="4"><p id="p1">Please fill this form</p></marquee>
+
+<div>
+<form action="home.html" method="get">
+
+<fieldset>
+
+<legend style="text-align:center;font-size:"20px"><b>Form</b></legend>
+
+First name:<input type="text" name="first name">
+
+</br></br>
+
+Last name:<input type="text" name="last name">
+
+</br></br>
+
+Email:<input type="text" name="email">
+
+</br></br>
+
+Your mobile number:<input type="text" name="number">
+
+</br></br>
+
+You like clean energy:<input type="radio" name="Yes" value="Yes">Yes &nbsp &nbsp</tb><input type="radio" name="No" value="No">No
+
+</br></br>
+
+
+What energy can easy to use for you in home:
+<select name="energy">
+<option value="Solar">Solar planet</option>
+<option value="Biomass system">Biomass system</option>
+<option value="Wind electric system">Wind electric system</option>
+<option value="Microhydropower system">Microhydropower system</option>
+</select>
+
+
+</br></br>
+
+<textarea rows="10" cols="30" placeholder="write you proposals for using sdg 7 in srilanka"></textarea>
+
+</br></br>
+
+<input type="submit" name="submit" value="click here to submit all">
+
+</br></br>
+
+<input type="reset" name="reset" value="reset all" align="right">
+
+</br></br>
+</fieldset>
+</form>
+</div>
+</body>
+</html>

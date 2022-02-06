@@ -1,0 +1,61 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>recomends</title>
+
+<style>
+table,th,td{border:1px solid black;height:50px;weight:250px}
+#th1{background-color:maroon;font-family:calibri;text-align:centere;font-size:50px}
+th{background-color:brown;font-size:30px}
+td{background-color:pink}
+div{padding:25px;margin:25px;}
+</style>
+
+</head>
+
+
+<body bgcolor="aqua" style="border:15px solid purple">
+
+<div>
+
+<frameset cols="75","25">
+<frame src=1.html>
+<frame src=2.html>
+</frameset>
+
+
+<h1>Proposals to implement SDG<i>seven</i> in Sri Lanka</h1>
+
+
+<div style="background-color:white">
+<p style="text-align:justify;font-size:20px;color:blue">
+&nbsp &nbsp Although the country is rich in many other renewable energy sources such as<u>sea waves</u>,<u>365 days sunshine</u>,<u>wind energy</u>,
+good rainfall and <u>water sources</u>,the use of renewable  energy sources other than water energy is very low.
+Priority is given to energy projects such as fuel and coal and the traditional use of wood as a domestic fuel.
+</p>
+</div>
+
+
+</br></br>
+
+
+
+<table border="1">
+<tr  ><th id="th1" colspan="2">Our recomends</th></tr>
+<tr><th>What can be done at home</th><th>What can a country do</th></tr>
+<tr><td>Can be using small solar panels</td><td>Bulid up solar farm projects</td></tr>
+<tr><td>Using a small wind electric system</td><td>Making wind farms</td></tr>
+<tr><td>making asmall hybrid electric systems(Solaar and wind system)</td><td>Use of gethermal and biomass systems(Emitting less polluting gases)</td><tr>
+<tr><td>Using small biomass systems(Ematting less uting gases)</td><td>Commencement of projects to generate electricity using ocean waves</td></tr>
+<img src="f.jpg" align="right" height="50%" alt="something went a wrong">
+</table>
+
+</div>
+
+
+</html>
+
