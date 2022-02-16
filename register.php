@@ -8,21 +8,27 @@
 
 
 <?php 
-$servername = "localhost";
-$username = "root";
-$password = "12345";
-$dbname = "clean_energy";
 
 
-$conn=mysqli_connect($servername,$username,$password,$dbname);
+$conn=mysqli_connect("localhost","root","12345","clean_energy");
 
 if($conn==false){
 
     die("Connection Failed:".mysqli_connect_error());
 }
 
-$uname=$_REQUEST['uname'];
-$mail=$_REQUEST['mail'];
+$Username=$_REQUEST['uname'];
+$Email=$_REQUEST['mail'];
+
+$sql= "INSERT INTO register VALUES ('$Username','$Email')";
+if(mysqli_query($conn,$sql)){
+    echo "<h3>Data Added Successfully!</h3>"
+}
+else{
+    echo "ERROR".mysqli_error($conn);
+}
+mysqli_close($conn);
+
 
 
 ?>
